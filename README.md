@@ -1,80 +1,69 @@
-# Mono Free Bootstrap Admin Dashboard Template
+<a href="http://www.bootstrapdash.com/demo/purple-admin-free" target="_blank"><img src="screenshot.jpg"></a>
 
-![mono](https://demo.themefisher.com/thumbnails/mono.png)
+<h1>PurpleAdmin-Free-Admin-Template</h1>
+Purple Admin is a free responsive admin template built with Bootstrap 5. The template has colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.
 
-👉🏻[View Live Preview](https://demo.themefisher.com/mono/)
+Purple Admin is packed with all the features that fit your needs but not cramped with components you would not even use. It is an excellent fit to build admin panels, e-commerce systems,  project management systems, CMS or CRM.
 
-<!-- download -->
-## Download And installation
+Although the template has a design like none other, it is easily customizable to suit your requirements. Purple Admin comes with a clean and well-commented code that makes it easy to work with the template. Thus making it an ideal pick for jump starting your project.
 
-Download this template from [Github](https://github.com/themefisher/mono/archive/main.zip)
 
-<!-- installation -->
-### Basic Usages
+<h1>Credits:</h1>
 
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
+- Bootstrap 5
+- Material Design Icons
+- jQuery
+- Gulp
+- Chart.js
 
-### Advanced Usage
+<h1>Browser Support:</h1>
 
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+Purple Admin is designed to work flawlessly with all the latest and modern web browsers.
 
-#### Install prerequisites (once for a machine)
+- Chrome (latest)
+- FireFox (latest)
+- Safari (latest)
+- Opera (latest)
+- IE10+  
 
-* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
-* **Gulp Installation:** Install gulp globally from your terminal
+<h1>License Information:</h1>
 
-```
-npm install --global gulp-cli
-```
 
-Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
+Purple Admin is released under MIT license. Purple Admin is a free Bootstrap 5 admin template developed from BootstrapDash. Feel free to download it, use it, share it, get creative with it.
 
-#### Local setup
+<h1>How to use Purple Admin?</h1>
 
-After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
-* Install dependencies
+1 - Click the Clone or Download button in GitHub and download as a ZIP file or you can enter the command git clone https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template.git in you terminal to get a copy of this template.
 
-```
-npm install
-```
+2 - After the files have been downloaded you will get a folder with all the required files
 
-* Run locally
+3 - You can install all the dependencies in the template by running the command npm install. All the required files are in the node modules.
 
-```
-npm run dev
-```
+4 - Find the file named index.html, check what all components you need. Open the file in a text editor and you can start editing.
 
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
+5 - Now that your project has now kick-started, all you need to do now is to code, code, and code to your heart's content.
 
-#### Production Build
+<h1>How to Contribute?:</h1>
 
-After finishing all the customization, you can create a production build by running this command.
 
-```
-npm run build
-```
+We love your contributions and we welcome them wholeheartedly. We believe the more the merrier.
+To contribute make sure you have a Node.js and npm installed. Now run the command gulp --version. If the command returns with the Gulp version number, it means you have Gulp installed. If not you need to run the command npm install --global gulp-cli to install Gulp.
 
-Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
+<h2>Next</h2>
 
-👉🏻 [visit documentation](https://docs.themefisher.com/mono/)
-
-<!-- reporting issue -->
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the mono Template. Please Search [existing issues](https://github.com/themefisher/mono/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/mono/issues).
-
-<!-- support -->
-## Technical Support or Questions (Paid)
-
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
-
-<!-- licence -->
-## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/mono/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+After Gulp has been installed, follow the steps below to contribute.
+  <br>
+	1 - Fork and clone the repo of Purple Admin.
+  <br>
+	2 - Run the command npm install to install all the dependencies.
+  <br>
+	3 - Enter the command gulp serve. This will open Purple Admin in your default browser.
+  <br>
+	4 - Make your valuable contribution
+  <br>
+	5 - Submit a pull request.
+  <hr>
+	Do you need a template with more features and functionalities? Get more with our collection of the premium template with more plugins, eye catching animations, UI components, and sample pages all fitting together with a high-quality design.
+Visit
+  <a href="https://www.bootstrapdash.com" target="_blank">https://www.bootstrapdash.com</a> for more admin templates.

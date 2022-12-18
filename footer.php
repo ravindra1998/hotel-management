@@ -1,74 +1,28 @@
-<div class="content-wrapper">
-          <div class="content">                
-                  <!-- Top Statistics -->
-                
-                      </div>
-                    </div>
-
-
-
-    
-                    <script src="plugins/jquery/jquery.min.js"></script>
-                    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-                    <script src="plugins/simplebar/simplebar.min.js"></script>
-                    <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
-
-                    
-                    
-                    <script src="plugins/apexcharts/apexcharts.js"></script>
-                    
-                    
-                    
-                    <script src="plugins/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
-                    
-                    
-                    
-                    <script src="plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
-                    <script src="plugins/jvectormap/jquery-jvectormap-world-mill.js"></script>
-                    <script src="plugins/jvectormap/jquery-jvectormap-us-aea.js"></script>
-                    
-                    
-                    
-                    <script src="plugins/daterangepicker/moment.min.js"></script>
-                    <script src="plugins/daterangepicker/daterangepicker.js"></script>
-                    <script>
-                      jQuery(document).ready(function() {
-                        jQuery('input[name="dateRange"]').daterangepicker({
-                        autoUpdateInput: false,
-                        singleDatePicker: true,
-                        locale: {
-                          cancelLabel: 'Clear'
-                        }
-                      });
-                        jQuery('input[name="dateRange"]').on('apply.daterangepicker', function (ev, picker) {
-                          jQuery(this).val(picker.startDate.format('MM/DD/YYYY'));
-                        });
-                        jQuery('input[name="dateRange"]').on('cancel.daterangepicker', function (ev, picker) {
-                          jQuery(this).val('');
-                        });
-                      });
-                    </script>
-                    
-                    
-                    
-                    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-                    
-                    
-                    
-                    
-
-                    
-                    
-                    <script src="js/mono.js"></script>
-                    <script src="js/chart.js"></script>
-                    <script src="js/map.js"></script>
-                    <script src="js/custom.js"></script>
-
-                    
-
-
-                    <!--  -->
-
-
+<footer class="footer">
+            
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+<!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <!-- End custom js for this page -->
   </body>
 </html>
